@@ -1,0 +1,130 @@
+/* HomePage.css */
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white; /* Add background color as needed */
+  border-radius: 10px;
+  max-width: 600px; /* Adjust the width as needed */
+  width: 100%;
+  margin: 0 auto;
+}
+.home-page-container h1 {
+  color: #007bff;
+  font-size: 43px;
+}
+
+.add-post-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.add-post-button:hover {
+  background-color: #0056b3;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post {
+  border: 3px solid #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.post-time {
+  color: #777;
+}
+
+.selected-image-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hashtags,
+.mentions {
+  color: #3498db;
+}
+
+.post-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.action-like-button {
+  background-color: #2321a5;
+}
+
+.action-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add more styles as needed */
+.likes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.like-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+}

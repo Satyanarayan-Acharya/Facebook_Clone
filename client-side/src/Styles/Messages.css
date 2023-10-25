@@ -1,0 +1,212 @@
+/* Add these styles to your CSS file */
+
+/* Container for the messages section */
+
+.messages-container {
+  background-color: #f1e5e5;
+  border-radius: 10px;
+  margin-left: 158px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  padding-bottom: 393px;
+}
+
+/* Title for the section */
+.messages-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Individual message card */
+.message-card {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* User name */
+.user-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 12px;
+  color: #333;
+}
+
+/* Last message snippet */
+.message-snippet {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #777;
+}
+
+/* Time of last message */
+.message-time {
+  font-size: 14px;
+  color: #888;
+}
+
+/* No friends message */
+.no-friends-message {
+  font-size: 20px;
+  color: #777;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 94%;
+  padding: 20px;
+  background-color: #f1e5e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ccc;
+  background-color: white;
+  border-radius: 29px;
+  padding-left: 28px;
+  padding-top: 5px;
+}
+
+.user-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chat-messages {
+  overflow-y: scroll;
+  height: 100%;
+  padding-right: 11px;
+  padding-top: 18px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message-text {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  font-size: 16px;
+  max-width: 70%;
+}
+
+.message.sent {
+  margin-left: auto;
+  flex-direction: row-reverse;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  position: relative;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.message-time {
+  font-size: 12px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.message.sent .message-content {
+  align-items: flex-end;
+}
+
+/* Add your CSS styles for emoji picker and button */
+
+.emoji-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.emoji-picker {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+}
+.Picker-div {
+  height: 200px;
+  width: 350px;
+}
+
+.icon {
+  position: absolute;
+  left: 223px; /* Adjust the icon position as needed */
+  top: 23px;
+  color: gray; /* Adjust the icon color as needed */
+  cursor: pointer;
+}

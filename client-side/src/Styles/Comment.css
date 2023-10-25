@@ -1,0 +1,67 @@
+.comment-box {
+  margin-top: 20px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.comment-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.comment-text {
+  word-break: break-word;
+  padding-left: 3px;
+  margin-top: 3px;
+}
+
+.comment-input-container {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 8px;
+}
+
+.comment-input {
+  flex: 1;
+  border: none;
+  padding: 4px;
+  margin-right: 8px;
+  outline: none;
+}
+
+.comment-button {
+  background-color: transparent;
+  border: none;
+  color: #0084ff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Add this to your CSS file */
+.action-button.liked {
+  color: rgb(14, 11, 185);
+  background-color: transparent;
+  border: none;
+}
+.post-setting{
+  display: flex;
+  gap: 310px;
+}

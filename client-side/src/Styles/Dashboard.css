@@ -1,0 +1,190 @@
+.SideNavbar {
+  background-color: #007bff;
+  color: #fff;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding: 20px 0;
+}
+
+.SideNavbar-deactive {
+  background-color: #007bff;
+  color: #fff;
+  width: 100px;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding: 20px 0;
+}
+
+/* .SideNavbarShort {
+  background-color: #007bff;
+  color: #fff;
+  width: 88px;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding: 20px 0;
+} */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #0056b3;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile img {
+  width: 86px;
+  height: 84px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.profile span {
+  font-size: 16px;
+}
+
+/* Style the active link (e.g., "Home" or "Profile") */
+.active {
+  background-color: #0056b3;
+  font-weight: bold;
+}
+
+/* CreatePost.css */
+
+.create-post-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 28px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 71px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-content-input {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.image-upload-input {
+  display: none;
+}
+
+.hashtag-input,
+.mention-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-button:hover {
+  background-color: #0056b3;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 70px;
+  justify-content: space-around;
+  background-color: #fae6e6;
+  padding: 10px;
+}
+
+.filter-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Add these styles to your CSS or SCSS file */
+.like-comment-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.like-comment-button-active {
+  background-color: #ffbdbd;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.viewLC {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.likes-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.comments-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */

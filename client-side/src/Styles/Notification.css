@@ -1,0 +1,101 @@
+/* Notification.css */
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* RequestPage.css */
+
+.notification-item {
+  display: flex;
+  gap: 31px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.notification-item span {
+  font-size: 16px;
+
+  font-weight: bold;
+  color: #333;
+}
+
+.friend-request-button {
+  background-color: #007bff; /* Blue color for the button */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 50%; /* Rounded button */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+}
+
+/* FontAwesome icon color */
+.friend-request-button svg {
+  color: #fff;
+  font-size: 20px;
+}
+
+.notification-heading {
+  font-size: 35px;
+  color: #007bff; /* Change the color to your preference */
+  margin-bottom: 16px; /* Add margin to separate it from the content below */
+}
+
+.request-heading {
+  font-size: 18px;
+  color: #007bff; /* Change the color to your preference */
+  margin-bottom: 12px; /* Add margin to separate it from the content below */
+}
+.noti-profile-image {
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  width: 55px;
+  height: 50px;
+
+  object-fit: cover;
+}
+
+.notification-badge {
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  position: absolute;
+  top: 439px;
+  right: 55px;
+  transform: translate(
+    50%,
+    -50%
+  ); /* Position the badge in the top-right corner */
+}
+.request-span {
+  font-size: 18px;
+  color: black; /* Change the color to your preference */
+  margin-bottom: 12px; /* Add margin to separate it from the content below */
+}
+
+.online-user-circle {
+  width: 30px; /* Set the width and height to your desired size */
+  height: 30px;
+  background-color: rgb(0, 119, 231); /* Set the background color to blue */
+  border-radius: 50%;
+  color: rgb(0, 119, 231); /* Make it a circle using border-radius */
+}
